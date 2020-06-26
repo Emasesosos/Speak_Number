@@ -24,10 +24,23 @@ p {
 
 .play-again {
   padding: 8px 15px;
-  border: 0;
+  border: 1.5px solid #FFFFFF;
   background: #F4F4F4;
   border-radius: 5px;
   margin-top: 10px;
+  outline: none;
+  transition: background-color .8s ease;
+  cursor: pointer;
+}
+
+.play-again:active {
+  transform: scale(0.98);
+}
+
+.play-again:hover {
+  color: #F4F4F4;
+  background-color: #000000;
+  border: 1.5px solid #FFFFFF;
 }
 
 .msg {
